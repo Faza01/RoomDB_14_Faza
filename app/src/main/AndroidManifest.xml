@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.crud.roomdb_14_faza">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_movie"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_movie_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RoomDB_14_Faza">
+        <activity
+            android:name=".EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".opening"
+            android:exported="true"
+            android:theme="@style/Theme.RoomDB_14_Faza">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
